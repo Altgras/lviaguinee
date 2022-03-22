@@ -1,0 +1,58 @@
+<!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <div class="menu_section">
+                <h3>General</h3>
+                <ul class="nav side-menu">
+                  <li><a href="{% url 'dashboard' %}"><i class="fa fa-tachometer"></i> Tableau de bord </a></li>
+                <li><a ><i class="fa fa-book"></i> Livres <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="{% url 'readpoints' %}">Points de lectures</a></li>
+                        <li><a href="{% url 'ranks' %}">Rayons</a></li>
+                        <li><a href="{% url 'books' %}">livres</a></li>
+                    </ul>
+                </li>
+                <li><a><i class="fa fa-group"></i> Lecteurs <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="{% url 'add-reader' %}">Ajouter un lecteur</a></li>
+                        <li><a href="{% url 'readers' %}">Liste des lecteurs</a></li>
+                    </ul>
+                </li>
+                <li><a><i class="fa fa-user"></i> Abonnements <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="{% url 'subscriptions' %}">Abonnements</a></li>
+                        <li><a href="{% url 'resubscriptions' %}">Réabonnements</a></li>
+                    </ul>
+                </li>
+                <li><a><i class="fa fa-share"></i> Emprunts <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="{% url 'add-borrow' %}">Ajouter un emprunt</a></li>
+                        <li><a href="{% url 'borrows' %}">Liste des emprunts</a></li>
+                        <li><a href="{% url 'returns' %}">Retours</a></li>
+                    </ul>
+                </li>
+                <li><a><i class="fa fa-money"></i> Comptabilite <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="{% url 'accounting' %}">Abonnements</a></li>
+                        <li><a href="{% url 'accounting' %}">Depenses</a></li>
+                        <li><a href="{% url 'accounting' %}">Salaires</a></li>
+                    </ul>
+                </li>
+                <li><a><i class="fa fa-users"></i> Utilisateurs <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="{% url 'users' %}">Fonctions </a></li>
+                        <li><a href="{% url 'users' %}">Privilèges </a></li>
+                        <li><a href="{% url 'users' %}">Ajout utilisateur</a></li>
+                        <li><a href="{% url 'users' %}">Liste des utilisateurs</a></li>
+                    </ul>
+                </li>
+                <li><a><i class="fa fa-bar-chart"></i>Statistiques <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="{% url 'edit-book' 1 %}">Stat 1</a></li>
+                        <li><a href="{% url 'stat' %}">Stat 2</a></li>
+                    </ul>
+                </li>
+                </ul>
+              </div>
+
+            </div>
+            <!-- /sidebar menu -->
