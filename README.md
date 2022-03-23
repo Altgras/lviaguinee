@@ -9,7 +9,7 @@ L'application de gestion des points de lectures dans les différentes communes d
    git clone https://github.com/Altgras/lviaguinee.git
    
    ````
-2. Une fois Téléchargé, assurez vous qu'il soit dans un environnement web (ex: www, htdocs, ...)
+2. Une fois Téléchargé, assurez vous que git,python soient installé
 3. Ensuite naviguez jusqu'à la racine du projet
 4. Créer une branche portant le nom de la tâche que vous êtes en train d'effectuer à l'aide de la cmde:
    ````
